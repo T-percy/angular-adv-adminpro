@@ -8,8 +8,8 @@ import { Page404Component } from './page404/page404.component';
 
 const routes: Routes = [
 
-  // path: '/dashboard' PagesRouting
   // path: '/auth' AuthRouting
+  // path: '/dashboard' PagesRouting
 
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: '**', component: Page404Component },

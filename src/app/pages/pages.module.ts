@@ -8,8 +8,9 @@ import { ComponentsModule } from '../components/components.module';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
-import { Graphic1Component } from './graphic1/graphic1.component';
+import { Charts1Component } from './charts1/charts1.component';
 import { PagesComponent } from './pages.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -17,14 +18,16 @@ import { PagesComponent } from './pages.component';
   declarations: [
     DashboardComponent,
     ProgressComponent,
-    Graphic1Component,
+    Charts1Component,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   exports: [
     DashboardComponent,
     ProgressComponent,
-    Graphic1Component,
+    Charts1Component,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,

@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
-import { Graphic1Component } from './graphic1/graphic1.component';
+import { Charts1Component } from './charts1/charts1.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 const routes: Routes = [
   {
@@ -13,7 +14,8 @@ const routes: Routes = [
     children: [
       { path: '', component: DashboardComponent },
       { path: 'progress', component: ProgressComponent },
-      { path: 'graphic1', component: Graphic1Component },
+      { path: 'charts1', component: Charts1Component },
+      { path: 'settings', component: AccountSettingsComponent },
     ]
   },
 ];
